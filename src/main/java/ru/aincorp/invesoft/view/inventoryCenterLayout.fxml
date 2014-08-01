@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="718.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.6997206703910615" layoutX="8.0" layoutY="100.0" orientation="VERTICAL" prefHeight="208.0" prefWidth="170.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <TableView layoutX="-252.0" layoutY="-131.0" prefHeight="213.0" prefWidth="562.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Группа" />
+                      <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Наименование" />
+                        <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Инв. ном." />
+                        <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Идентификатор" />
+                        <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Состояние" />
+                        <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Количество" />
+                        <TableColumn minWidth="100.0" prefWidth="-1.0" resizable="true" text="Примечания" />
+                    </columns>
+                     <columnResizePolicy>
+                        <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+                     </columnResizePolicy>
+                  </TableView>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="298.0" prefWidth="792.0">
+               <children>
+                  <Pane prefHeight="212.0" prefWidth="792.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <children>
+                        <Button layoutX="276.0" layoutY="173.0" mnemonicParsing="false" prefHeight="25.0" text="Экспорт" />
+                        <TextArea layoutX="11.0" layoutY="55.0" prefHeight="103.0" prefWidth="491.0" />
+                        <Button layoutX="271.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" text="Удалить выделенные" />
+                        <Button layoutX="132.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" text="Отменить удаление" />
+                        <Button layoutX="717.0" layoutY="173.0" mnemonicParsing="false" prefHeight="25.0" text="Выход" />
+                        <Button layoutX="6.0" layoutY="173.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="252.0" text="Сохранить опись  в файл для передачи..." />
+                        <Button layoutX="6.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" text="Добавить запись" />
+                     </children>
+                  </Pane>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
